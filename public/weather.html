@@ -1,0 +1,108 @@
+<html>
+<head>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" media="all" type="text/css" href="css/weather.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
+    <script type='text/javascript' src='js/weather.js'></script>
+    <title>Welcome</title>
+    
+</head>
+
+<body>
+    <div id="top_row">
+        <nav>
+            <a href="news.html">Top Stories</a>
+            <a href="business.html">Business</a>
+            <a href="tech.html">Tech</a>
+            <a href="sports.html">Sports</a>
+            <a href="weather.html" class="selected">Weather</a>
+            <a href="index.html">Logout</a>
+        </nav>
+    </div>
+
+    
+    <h1>Welcome to Daily Weather!  <img src="weather.ico" alt="Weather" style: height="40"; align: "middle"> </h1>
+    <p id="topArea">This site allows you to find weather data on your favorite cities. Find out the weather in your city! (Click to Hide)</p>
+    <div id="weatherArea"></div>
+
+    <form id="f1">
+        <br>
+        <p id="inputArea">Enter Zip or City/State (Ex. "01010" or "Pittsburgh, PA"):
+        <input id="city" type="text" name="location" value="" /><br>
+        <br>
+        <input id="submit" type="button", class="button", value="Get Weather!", onClick="getWeather()"/>
+        <br>
+        <br>
+        <div id="pre"></div>
+        <div id="results">
+            <br>
+            <div id="date"></div>
+            <br>
+            <br>
+            <br>
+            <div id="currentF"></div>
+            <div id="currentC"></div>
+            <br>
+            <div id="feelsLike"></div>
+            <div id="humidity"></div>
+            <br>
+            <div id="maxTemp"></div>
+            <div id="minTemp"></div>
+            <!-- <div id="chance"></div> -->
+            <div id="sunrise"></div>
+            <div id="sunset"></div>
+        </div>
+    </form>
+
+    <form id='f2'>
+    <br>
+    <p id="other"> Click to find out the weather in the America's most popular cities!</p>
+    <input id="getCity" type="button" class="button" value='Check it Out!' onclick="doXMLHttpRequest()"/>
+    <br>
+    <br>
+    <div id="area"></div>
+    </form>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <form id ="info">
+        <h3> Subscribe to our Newsletter! </h3>
+        Email Address: <input type="text" name="email"><br>
+        Your City    :   <input type="text" name="city"><br>
+        <br>
+        <input id="enter" type='button', class="button" value='Submit!'></button>
+    </form>
+    <div id="thanks"></div>
+
+
+
+    <style>
+    .bold {
+        font-weight: bold;
+        font-size: large;
+    }
+    </style>
+
+    <style>
+    .bold2 {
+        font-weight: bold;
+        font-size: x-large;
+    }
+    </style>
+
+
+</body>
+
+    <br><br><br>
+    <footer>
+        <hr/>
+        &copy; Arnav Jain, 2017<br/>
+        <a href="mailto:arnavj1@andrew.cmu.edu">Email</a>
+        <a href="http://cmu.edu" target="_blank">Carnegie Mellon University</a>
+    </footer>
+
+
+</html>

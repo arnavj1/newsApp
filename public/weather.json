@@ -1,0 +1,18 @@
+{
+    "weather": [
+    {"city": "Boston", "weather": "20 F"},
+    {"city": "New York", "weather": "23 F"},
+    {"city": "Pittsburgh", "weather": "25 F"},
+    {"city": "Los Angeles", "weather": "70 F"},
+    {"city": "Phoenix", "weather": "62 F"},
+    {"city": "Cincinnati", "weather": "34 F"},
+    {"city": "Seattle", "weather": "39 F"},
+    {"city": "Kansas City", "weather": "31 F"},
+    {"city": "Orlando", "weather": "74 F"},
+    {"city": "Dallas", "weather": "64 F"},
+    {"city": "Portland", "weather": "32 F"}
+
+    ]
+
+
+}
