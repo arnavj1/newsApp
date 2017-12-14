@@ -9,35 +9,25 @@
     </head>
 
     <body>
-      <h1> Welcome to News & Weather Online! <img src="news.ico" alt="Weather"; align: "middle"></h1>
-      <h2> Log In </h2>
-        <form id="f2" action="/login" method="post">
-        <br>
+      <img class="background col-xs-12" src="background.jpg" />
+      <div class="login col-xs-12">
+        <h1 class="blue center"> Get Access to Exclusive News and Weather </h1>
+        <form class="center" id="login-form" action="/login" method="post">
           <div>
             <label>Username:</label>
             <input id="username2" type="text" name="username"/>
-            <br>
           </div>
           <div>
-            <br>
             <label>Password:</label>
             <input id="password2" type="password" name="password"/>
           </div>
 
-          <br>
-          <br>
-          <br>
-            <input type="submit" class="button" value="Log In"/>
-            <br>
-            <br>
-        </form>
-          <br><br><br>
-        
+          <input type="submit" class="button" value="Log In"/>
 
-          <div id="read"></div>
-          <br>
-          <br>
-          <b>Don't Have An Account? Sign Up <a href="signup.html">Here</a></b>     
+          <p class="center gray"> Don't Have An Account? <br/> <a href="signup.html" class="signup-txt">Sign Up</a></p>
+        </form>
+      </div>
+    
     </body>
 
 

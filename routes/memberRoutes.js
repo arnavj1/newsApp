@@ -107,7 +107,7 @@ doCreate = function(req, res){
                         username:req.params.username, password:req.params.password, city:req.params.city},
                           function(result) {
                             // result equal to true means create was successful
-                          var success = (result ? "Account Created! Log in using the link below!" : "Create unsuccessful");
+                          var success = (result ? "Account Created - Log in below" : "Create unsuccessful");
                           //if the create is successful, then we send the success variable (true) that 
                           //will display "Create successful"
                           res.send(success);

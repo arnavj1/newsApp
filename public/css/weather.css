@@ -1,18 +1,8 @@
 body {
-    background-color: #00f38d;
+    background-color: #e6f5ff;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.3em;
     padding-left: 10px;
-}
-
-h1 {
-    color: #8d00f3;
-    padding-top: 10px;
-    /*display: inline;*/
-}
-
-a {
-    display: inline;
 }
 
 img {
@@ -21,9 +11,17 @@ img {
     height: 65px;
 }
 
+h1 {
+
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #0099ff;
+    font-weight: bold;   
+}
+
 #top_row nav {
     float:right;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-right: 10px;
 }
 
@@ -32,26 +30,23 @@ img {
     font-size: 1em;
     font-weight: 500;
     padding: 15px;
-    color: #8d00f3;
+    color: black;
 }
 
 #top_row nav a.selected {
     background: #ffffff;
-    color: #8d00f3;
+    color: black;
 }
 
 #top_row nav a.selected:hover {
     background: #ffffff;
-    color: #8d00f3;
+    color: blue;
 }
 
 #top_row nav a:hover {
     background: #ffffff;
-    color: #8d00f3;
+    color: blue;
 }
-
-
-
 
 #topArea {
     color: #8d00f3;
@@ -59,31 +54,32 @@ img {
 }
 
 #inputArea {
-    color: #8d00f3;
+    color: #0099ff;
     font-weight: bold;
 }
 
 #info {
-    color: #8d00f3;
+    color: #0099ff;
 }
 
 #results {
-    padding-left: 100px;
+    padding-left: 90px;
+    color: #0099ff;
 }
 
 #f2 {
     padding-left: 700px;
-    color: #8d00f3;
+    color: #0099ff;
     font-weight: bold;
     font-size: 17px;
 }
 
 #area {
-    color: white;
+    color: black;
 }
 
 #thanks {
-    color: #8d00f3;
+    color: #0099ff;
     font-weight: bold;
     font-size: 20px;
 }

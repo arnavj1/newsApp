@@ -9,45 +9,50 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <!-- call javascript index file -->
         <script type='text/javascript' src="js/signup.js"></script>
+        <link rel="stylesheet" media="all" type="text/css" href="css/index.css" />
         <link rel="stylesheet" media="all" type="text/css" href="css/signup.css" />
     </head>
 
-
 <!-- The div tags should indicate which CRUD operation is being displayed -->
     <body>
-        <h1>Welcome to News & Weather Online! <img src="news.ico" alt="Weather"; align: "middle"></h1>
-        <h2>Your Home for the Latest News and Weather!</h2>
-        <br>
-        <h3>Create Your Free Account!</h3>
+        <img class="background col-xs-12" src="background.jpg" />
+        <div class="signup col-xs-12">
+            <h1 class="blue center"> Get Access to Exclusive News and Weather </h1>
+            <form class="center" id="signup-form">
+                <br>
+                First Name    <input id = "first_name1" type="text" name="first_name"><br>
+                <br>
+                Last Name     <input id = "last_name1" type="text" name="last_name"><br>
+                <br>
+                Email Address <input id = "email1" type="text" name="email"><br>
+                <br>
+                Username      <input id = "username1" type="text" name="username"><br>
+                <br>
+                Password      <input id = "password1" type="password" name="password"><br>
+                <br>
+                City          <input id = "city1" type="text" name="city"><br>
+                <input type="submit" class="button" value="Create My Account!">
 
-        <form id="f1">
-            <br>
-            First Name    <input id = "first_name1" type="text" name="first_name"><br>
-            <br>
-            Last Name     <input id = "last_name1" type="text" name="last_name"><br>
-            <br>
-            Email Address <input id = "email1" type="text" name="email"><br>
-            <br>
-            Username      <input id = "username1" type="text" name="username"><br>
-            <br>
-            Password      <input id = "password1" type="password" name="password"><br>
-            <br>
-            City          <input id = "city1" type="text" name="city"><br>
-            <br>
-            <br>
-            <br>
-            <input type="submit" class="button" value="Create My Account!">
-            <br><br>
-        </form>
+            </form>
 
-        <br>
-        <div id="add"></div>
+            <div id="add"></div>
 
-        <br>
+            <form class="center" id="login-form" action="/login" method="post">
+              <div>
+                <label>Username:</label>
+                <input id="username2" type="text" name="username"/>
+              </div>
+              <div>
+                <label>Password:</label>
+                <input id="password2" type="password" name="password"/>
+              </div>
 
-        <br>
-        <b>Already Have an Account?    <a href="index.html">Log In</a></b>
-        <br><br><br>
+              <input type="submit" class="button" value="Log In"/>
+            </form>
+
+            <p class="gray center" id="have-acct"> Already Have an Account? <br> <a href="index.html"> Log In </a> </p>
+        </div>
+
     </body>
 
     <footer>
@@ -58,46 +63,4 @@
     </footer>
 
 
-
-
-
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--         
-        <form id="f3">
-            First Name <input id="first_name3" type="text" name="first_name"><br>
-            Last Name <input id="last_name3" type="text" name="last_name"><br>
-            Email Address <input id="email3" type="text" name="email"><br>
-            <br>
-            <input type="submit" value="Update">
-        </form>
-
-        <div id="update"></div>
-
-        <br>
-        <br>
-
-        <form id="f4">
-            First Name <input id="first_name4" type="text" name="first_name"><br>
-            <br>
-            <input type="submit" value="Delete">
-        </form>
-
-        <div id="delete"></div>
-        
-
-    </body>
-</html> -->

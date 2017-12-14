@@ -73,11 +73,11 @@ $(document).ready(function(){
 
     //Colors in the results appropriately
     $("#submit").click(function(){
-        $("#results").css("color", "white").addClass("bold");
+        $("#results").css("color", "black").addClass("bold");
     });
 
     $("#submit").click(function(){
-        $("#pre").append("Here is Today's Weather Data for this Location:").css("color", "white").addClass("bold2");
+        $("#pre").append("Here is Today's Weather Data for this Location:").css("color", "black").addClass("bold2");
     });
 
     //fades out the data quickly

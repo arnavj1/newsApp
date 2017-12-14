@@ -1,18 +1,21 @@
-body {
-    background-color: #00f38d;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    line-height: 1.3em;
-    padding-left: 10px;
+a {
+    text-decoration: none;
 }
 
 h1 {
-    padding-top: 20px;
-    color: #8d00f3;
+    padding-top: 30px;
+    text-decoration: underline;
+    color: #0099ff;
+}
+
+body {
+    background-color: #e6f5ff;
+    padding-left: 20px;
 }
 
 #top_row nav {
     float:right;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-right: 10px;
 }
 
@@ -21,64 +24,49 @@ h1 {
     font-size: 1em;
     font-weight: 500;
     padding: 15px;
-    color: #8d00f3;
+    color: black;
 }
 
 #top_row nav a.selected {
     background: #ffffff;
-    color: #8d00f3;
+    color: black;
 }
 
 #top_row nav a.selected:hover {
     background: #ffffff;
-    color: #8d00f3;
+    color: blue;
 }
 
 #top_row nav a:hover {
     background: #ffffff;
-    color: #8d00f3;
+    color: blue;
 }
 
-.button {
-    background-color: #f30066;
-    color: white;
-    border: solid black;
-    padding: 15px 15px;
-    text-align: center;
-    font-size: 16px;
-}
-
-#responseArea1 {
-    /*color: blue;*/
-    padding-right: 15px
-}
-
-#responseArea2 {
-    padding-left: 30px;
+.title {
+    padding-left: 70px;
     font-size: 24px;
     font-weight: bold;
 }
 
-#responseArea3 {
-    /*color: blue;*/
+.subject {
     padding-left: 75px;
+    /*font-weight: bold;*/
 }
 
-#responseArea4 {
-    /*color: blue;*/
+.photo {
     padding-left: 75px;
+    width: 500px;
+    max-height: 265px;
+    
 }
 
-#responseArea5 {
-    /*color: blue;*/
-    padding-left: 75px;
+.article {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    padding: 30px;
+    width: 80%;
 }
 
-footer {
-    margin: 10;
-    padding: 1em;
-    color: black;
-    font-size: .9em;
-    text-align: center;
-}
 
